@@ -1,0 +1,9 @@
+global using NUnit.Framework;
+global using AutoMapper;
+global using Microsoft.AspNetCore.Mvc;
+global using Moq;
+global using ToDoApi;
+global using ToDoApi.Controllers;
+global using ToDoApi.Data.Repositories.RepositoryInterfaces;
+global using ToDoApi.Models.DTOs;
+global using ToDoApi.Models.Entities;
