@@ -30,6 +30,24 @@ cd ToDoApi</code></pre>
   </li>
 </ol>
 
+<h2>🐳 Docker Installation</h2>
+<ol>
+  <li><strong>Make sure Docker is installed</strong><br>
+      Install Docker Desktop from <a href="https://www.docker.com/products/docker-desktop" target="_blank">https://www.docker.com/products/docker-desktop</a> and ensure it is running.
+  </li>
+  <li><strong>Clone the repository</strong>
+    <pre><code>git clone https://github.com/IlyaM70/ToDoApi.git
+cd ToDoApi</code></pre>
+  </li>
+  <li><strong>Build and run the containers using Docker Compose</strong>
+    <pre><code>docker-compose up --build</code></pre>
+  </li>
+  <li><strong>Access the API</strong><br>
+      Once running, the API will be accessible at:<br>
+      <code>http://localhost:5000/api/todoitems</code>
+  </li>
+</ol>
+
 <h2>💻 Usage</h2>
 <p>Once the application is running, you can interact with the ToDo API using tools like Postman or cURL.</p>
 
